@@ -1,0 +1,12 @@
+C:\Users\nicol\source\repos\HundredProgrammingChallenges\UtilityHubinator\UtilitiesCore\bin\Debug\net8.0\UtilitiesCore.deps.json
+C:\Users\nicol\source\repos\HundredProgrammingChallenges\UtilityHubinator\UtilitiesCore\bin\Debug\net8.0\UtilitiesCore.dll
+C:\Users\nicol\source\repos\HundredProgrammingChallenges\UtilityHubinator\UtilitiesCore\bin\Debug\net8.0\UtilitiesCore.pdb
+C:\Users\nicol\source\repos\HundredProgrammingChallenges\UtilityHubinator\UtilitiesCore\obj\Debug\net8.0\UtilitiesCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\source\repos\HundredProgrammingChallenges\UtilityHubinator\UtilitiesCore\obj\Debug\net8.0\UtilitiesCore.AssemblyInfoInputs.cache
+C:\Users\nicol\source\repos\HundredProgrammingChallenges\UtilityHubinator\UtilitiesCore\obj\Debug\net8.0\UtilitiesCore.AssemblyInfo.cs
+C:\Users\nicol\source\repos\HundredProgrammingChallenges\UtilityHubinator\UtilitiesCore\obj\Debug\net8.0\UtilitiesCore.csproj.CoreCompileInputs.cache
+C:\Users\nicol\source\repos\HundredProgrammingChallenges\UtilityHubinator\UtilitiesCore\obj\Debug\net8.0\UtilitiesCore.sourcelink.json
+C:\Users\nicol\source\repos\HundredProgrammingChallenges\UtilityHubinator\UtilitiesCore\obj\Debug\net8.0\UtilitiesCore.dll
+C:\Users\nicol\source\repos\HundredProgrammingChallenges\UtilityHubinator\UtilitiesCore\obj\Debug\net8.0\refint\UtilitiesCore.dll
+C:\Users\nicol\source\repos\HundredProgrammingChallenges\UtilityHubinator\UtilitiesCore\obj\Debug\net8.0\UtilitiesCore.pdb
+C:\Users\nicol\source\repos\HundredProgrammingChallenges\UtilityHubinator\UtilitiesCore\obj\Debug\net8.0\ref\UtilitiesCore.dll

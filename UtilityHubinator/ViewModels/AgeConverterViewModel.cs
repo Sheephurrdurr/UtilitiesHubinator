@@ -48,7 +48,7 @@ namespace UtilityHubinator.ViewModels
             ConvertCommand = new RelayCommand(_ => ConvertAge());
         }
 
-        private void ConvertAge()
+        public void ConvertAge()
         {
             Seconds = AgeConverter.ConvertYearsToSeconds(Years);
         }

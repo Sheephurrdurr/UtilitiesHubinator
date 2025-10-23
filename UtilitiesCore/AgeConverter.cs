@@ -4,7 +4,7 @@
     {
         public static double ConvertYearsToSeconds(int years)
         {
-            return years * 365d * 24 * 60 * 60;
+            return years * 31536000; // Seconds in a year
         }
     }
 }

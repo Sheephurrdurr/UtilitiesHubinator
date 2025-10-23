@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicol\\source\\repos\\HundredProgrammingChallenges\\UtilityHubinator\\UtilitiesCore\\UtilitiesCore.csproj": {}
+    "C:\\Users\\nicol\\Documents\\GitHub\\UtilitiesHubinator\\UtilitiesCore\\UtilitiesCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicol\\source\\repos\\HundredProgrammingChallenges\\UtilityHubinator\\UtilitiesCore\\UtilitiesCore.csproj": {
+    "C:\\Users\\nicol\\Documents\\GitHub\\UtilitiesHubinator\\UtilitiesCore\\UtilitiesCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\source\\repos\\HundredProgrammingChallenges\\UtilityHubinator\\UtilitiesCore\\UtilitiesCore.csproj",
+        "projectUniqueName": "C:\\Users\\nicol\\Documents\\GitHub\\UtilitiesHubinator\\UtilitiesCore\\UtilitiesCore.csproj",
         "projectName": "UtilitiesCore",
-        "projectPath": "C:\\Users\\nicol\\source\\repos\\HundredProgrammingChallenges\\UtilityHubinator\\UtilitiesCore\\UtilitiesCore.csproj",
+        "projectPath": "C:\\Users\\nicol\\Documents\\GitHub\\UtilitiesHubinator\\UtilitiesCore\\UtilitiesCore.csproj",
         "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicol\\source\\repos\\HundredProgrammingChallenges\\UtilityHubinator\\UtilitiesCore\\obj\\",
+        "outputPath": "C:\\Users\\nicol\\Documents\\GitHub\\UtilitiesHubinator\\UtilitiesCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,8 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -66,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

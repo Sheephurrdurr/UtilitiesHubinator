@@ -9,5 +9,8 @@
         <DataTemplate DataType="{x:Type vm:AgeConverterViewModel}">
             <views:AgeConverterView/>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:RandomNumberGeneratorViewModel}">
+            <views:RandomNumberGeneratorView/>
+        </DataTemplate>
     </Application.Resources>
 </Application>

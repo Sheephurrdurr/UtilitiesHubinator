@@ -9,7 +9,7 @@
     <Grid>
         <StackPanel Orientation="Horizontal">
             <Button Content="Age Converter" Command="{Binding ShowAgeConverterCommand}" />
-            <Button Content="Random Generator" Command="{Binding ShowRandomNumberCommand}" />
+            <Button Content="Random Generator" Command="{Binding ShowGenerateRandomNumberCommand}" />
         </StackPanel>
 
         <ContentControl Content="{Binding CurrentViewModel}" />

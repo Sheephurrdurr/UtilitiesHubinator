@@ -15,8 +15,10 @@ namespace UtilityHubinator.ViewModels
     {
         private object _currentViewModel;
         private readonly AgeConverterViewModel _ageConverterVM = new AgeConverterViewModel();
+        private readonly RandomNumberGeneratorViewModel _randomNumberGeneratorVM = new RandomNumberGeneratorViewModel();
 
         public ICommand ShowAgeConverterCommand { get; }
+        public ICommand ShowGenerateRandomNumberCommand { get; }
 
         public object CurrentViewModel
         {
@@ -34,7 +36,8 @@ namespace UtilityHubinator.ViewModels
         public MainViewModel(bool autoInit = true)
         {
             ShowAgeConverterCommand = new RelayCommand(_ => CurrentViewModel = _ageConverterVM);
-            if (autoInit) CurrentViewModel = _ageConverterVM;
+            ShowGenerateRandomNumberCommand = new RelayCommand(_ => CurrentViewModel = _randomNumberGeneratorVM);
+            if (autoInit) CurrentViewModel = null;
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;

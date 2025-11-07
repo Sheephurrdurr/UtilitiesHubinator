@@ -6,7 +6,27 @@
              xmlns:local="clr-namespace:UtilityHubinator.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Random Number Generator" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="200">
+            <TextBlock Text="Write two numbers" VerticalAlignment="Center" Margin="0,0,10,0"/>
+            <TextBox Text="{Binding LowerRange, UpdateSourceTrigger=PropertyChanged}" Grid.Row="0" Grid.Column="1" x:Name="LowerRangeBox"/>
+            <TextBox Text="{Binding UpperRange, UpdateSourceTrigger=PropertyChanged}" Grid.Row="0" Grid.Column="1" x:Name="UpperRangeBox"/>
             
+            <TextBlock Text="Random number:" VerticalAlignment="Center" Margin="0,10,10,0"/>
+            <TextBox Text="{Binding RandomNumber, Mode=OneWay}" Grid.Row="1" Grid.Column="1" x:Name="OutputBox" IsReadOnly="True" Margin="0,10,0,0"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <Button Width="100" Margin="0,5,0,5" Content="Generate number" Command="{Binding ShowGenerateRandomNumberCommand}"/>
+            <Button Width="100" Margin="20,5,0,5" Content="Clear" Command="{Binding ClearCommand}" />
+        </StackPanel>
     </Grid>
 </UserControl>
